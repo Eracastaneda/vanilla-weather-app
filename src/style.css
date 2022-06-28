@@ -23,6 +23,7 @@ li {
   color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
+  line-height: 19px;
 }
 
 li:first-letter {
@@ -89,4 +90,18 @@ li:first-letter {
 
 .weather-forecast-temperature {
   font-size: 13px;
+}
+
+.btn-primary {
+  border-radius: 10px;
+  background: #064663;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background: #ec6e4c;
 }
